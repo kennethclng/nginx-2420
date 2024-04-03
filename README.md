@@ -20,4 +20,13 @@ We can check if nginx is indeed working by using `systemctl`.
 **Check if the `nginx` service is running by typing `systemctl status nginx`.**
 
 ## Step 4: create a new directory as our project root 
+We need to create a directory to contain the HTML content we want to host.
+**Navigate to the root folder by typing `cd /`.**
+`/` is the root folder. 
 
+In this specific location, make the directories.
+**Type `sudo mkdir -p /web/html/nginx-2420`.**
+`mkdir` is the command used to create new directories. 
+The `-p` option creates parent directories as long as no errors are detected. This will allow us to do this all in one command instead of creating the web directory, then the html directory inside of it, and then the nginx-2420 directory inside of that.
+
+You can name the final directory something other than `nginx-2420`. 
